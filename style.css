@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*global classes*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography class */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
+
+.font-size14 {
+  font-size: 14px;
+}
+
+.font-size16 {
+  font-size: 16px;
+}
+
+.font-size20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #c183eb;
+}
+
+.color-primary-bg {
+  background: #5b59eb;
+}
+
+.color-second {
+  color: #1a1427;
+}
+
+.color-second-bg {
+  background: #1f084d;
+}
+
+.color-yellow {
+  color: #f0b24e;
+}
+
+.color-yellow-bg {
+  background: #f0b24e;
+}
+
+/* top-sale template*/
+#top-sale {
+  /*previous button*/
+  /*next button*/
+}
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: all 0.2s ease-in;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+  font-size: 35px;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  padding: 0;
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  padding: 0;
+  margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+  margin-top: 1rem;
+  margin-right: 1.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 600px) {
+  #banner-area {
+    height: 200px;
+  }
+  .item-res{
+    padding-left: 90px;
+  }
+}
+
+.bann{
+  background-attachment: fixed;
+}
